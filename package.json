@@ -1,0 +1,26 @@
+{
+  "name": "snyk-resolve-deps-fixtures",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm install undefsafe debug"
+  },
+  "keywords": [
+    "snyk",
+    "fixtures"
+  ],
+  "author": "Remy Sharp",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remy/vuln-test": "^1.0.1",
+    "semver-rs-demo": "^1.0.0"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0"
+  },
+  "bundleDependencies": [
+    "uglify-package"
+  ]
+}
