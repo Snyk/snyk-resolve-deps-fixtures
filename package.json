@@ -21,6 +21,9 @@
     "debug": "^2.2.0"
   },
   "bundleDependencies": [
-    "uglify-package"
+    "uglify-package",
+    "@remy/vuln-test",
+    "semver-rs-demo",
+    "debug"
   ]
 }
