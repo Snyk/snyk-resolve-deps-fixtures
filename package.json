@@ -16,6 +16,7 @@
   "dependencies": {
     "@remy/npm-tree": "^1.0.2",
     "@remy/vuln-test": "^1.0.1",
+    "dref": "0.0.6",
     "semver-rs-demo": "^1.0.0"
   },
   "devDependencies": {
