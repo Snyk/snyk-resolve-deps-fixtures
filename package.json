@@ -14,6 +14,7 @@
   "author": "Remy Sharp",
   "license": "UNLICENSED",
   "dependencies": {
+    "@remy/npm-tree": "^1.0.2",
     "@remy/vuln-test": "^1.0.1",
     "semver-rs-demo": "^1.0.0"
   },
@@ -23,7 +24,6 @@
   "bundleDependencies": [
     "uglify-package",
     "@remy/vuln-test",
-    "semver-rs-demo",
-    "debug"
+    "semver-rs-demo"
   ]
 }
