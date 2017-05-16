@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:ms:20170412':
+    - '@remy/snyk-shrink-test > undefsafe > debug > ms':
+        reason: None given
+        expires: '2017-06-15T18:12:51.827Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:semver:20150403':
+    - semver-rs-demo > semver:
+        patched: '2017-05-16T18:12:51.885Z'
+    - '@remy/vuln-test > semver':
+        patched: '2017-05-16T18:12:51.885Z'
