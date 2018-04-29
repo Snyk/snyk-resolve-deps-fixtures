@@ -28,7 +28,6 @@
   },
   "bundleDependencies": [
     "@remy/snyk-shrink-test",
-    "uglify-package",
     "@remy/vuln-test",
     "semver-rs-demo"
   ],
