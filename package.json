@@ -16,7 +16,7 @@
   "author": "Remy Sharp",
   "license": "UNLICENSED",
   "dependencies": {
-    "@remy/npm-tree": "1.0.2",
+    "@remy/npm-tree": "1.1.1",
     "@remy/snyk-shrink-test": "^1.0.0",
     "@remy/vuln-test": "1.0.1",
     "dref": "0.0.6",
